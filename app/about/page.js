@@ -21,7 +21,8 @@ const About = () => {
           </div>
         </div>
         <div className="py-8 flex items-center justify-center">
-          <Image src='/NewsTicker_About.png' alt="About" width={400} height={400}/>
+          {/* <Image src='/NewsTicker_About.png' alt="About" width={400} height={400}/> */}
+          <img src="/NewsTicker_About.png" alt="About" style={{width:'400px',height:'400px'}}/>
         </div>
     </div>
   )

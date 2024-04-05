@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -9,7 +9,8 @@ const Footer = () => {
         <div className="flex flex-col space-y-3 items-center justify-center py-3 text-gray-300">
             {/* LOGO */}
             <Link href="/">
-                <Image src="./newsticker.webp" alt='Logo' width={150} height={80}/>
+                {/* <Image src="/newsticker.webp" alt='Logo' width={150} height={80}/> */}
+                <img src="./newsticker.webp" alt="Logo" style={{width:'150px',height:'80px'}} />
             </Link>
             <p className="font-light">© 2024 News Ticker. Powered By <a href="https://gcaffe.com" target="_blank">G Caffe</a></p>
             <div class="flex flex-1 pt-5">
