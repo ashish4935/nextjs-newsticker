@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
         <div className="py-8 flex items-center justify-center">
           {/* <Image src='/NewsTicker_Agency.png' alt="Agency" width={500} height={500}/> */}
-          <img src="/NewsTicker_Agency.png" alt="contact" style={{width:'500px',height:'500px'}}/>
+          <img src="/NewsTicker_Agency.png" alt="Contact" style={{width:'500px',height:'500px'}}/>
         </div>
     </div>
   )

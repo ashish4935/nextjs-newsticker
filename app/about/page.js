@@ -7,7 +7,8 @@ const About = () => {
         <div className="flex flex-col pt-8">
           <div className="flex">
             {/* <Image alt="News Ticker" src='/NewsTicker.jpg'width={30} height={30} /> */}
-            <Image alt="About" src='/IndiaNewsTickerLive.jpg' width={50} height={50}/>
+            {/* <Image alt="About" src='/IndiaNewsTickerLive.jpg' width={50} height={50}/> */}
+            <img src="/IndiaNewsTickerLive.jpg" alt="about" style={{width:'50px',height:'50px'}}/>
           </div>
           <div className="flex flex-col py-6">
             <h1 className="text-red-400 text-5xl font-extrabold uppercase">About</h1>
