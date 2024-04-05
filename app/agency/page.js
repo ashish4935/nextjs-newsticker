@@ -6,8 +6,8 @@ const page = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 px-12 pt-24">
         <div className="flex flex-col pt-8">
           <div className="flex">
-            {/* <Image alt="News Ticker" src='/NewsTicker.jpg'width={30} height={30} /> */}
-            <Image alt="AgencyLogo" src='/GCaffeAgency.jpg' width={50} height={50}/>
+            {/* <Image alt="News Ticker" src='./NewsTicker.jpg'width={30} height={30} /> */}
+            <Image alt="AgencyLogo" src='./GCaffeAgency.jpg' width={50} height={50}/>
           </div>
           <div className="flex flex-col py-6">
             <h1 className="text-red-400 text-5xl font-extrabold uppercase">Agency</h1>
@@ -21,9 +21,9 @@ const page = () => {
           </div>
         </div>
         <div className="py-8 flex items-center justify-center relative img-parent">
-          <Image src='/GCaffe_Agency.webp' alt="Agency" width={500} height={500} className="img-main"/>
-          <Image src='/GCaffe_Work.webp' alt="Bharat Bolega" width={300} height={300} className="absolute top-12 left-0 img-child"/>
-          <Image src='/GCaffe_Slogan.webp' alt="Bharat Bolega" width={300} height={300} className="absolute bottom-10 right-0 img-child2"/>
+          <Image src='./GCaffe_Agency.webp' alt="Agency" width={500} height={500} className="img-main"/>
+          <Image src='./GCaffe_Work.webp' alt="Bharat Bolega" width={300} height={300} className="absolute top-12 left-0 img-child"/>
+          <Image src='./GCaffe_Slogan.webp' alt="Bharat Bolega" width={300} height={300} className="absolute bottom-10 right-0 img-child2"/>
         </div>
     </div>
   )
