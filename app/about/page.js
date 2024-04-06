@@ -1,13 +1,13 @@
 import Button from "@/components/Button"
-// import Image from "next/image"
+import Image from "next/image"
 import Link from "next/link"
 const About = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 px-12 pt-24">
         <div className="flex flex-col pt-8">
           <div className="flex">
-            {/* <Image alt="About" src='/IndiaNewsTickerLive.jpg' width={50} height={50}/> */}
-            <img src="IndiaNewsTickerLive.jpg" alt="about" style={{width:'50px',height:'50px'}}/>
+            <Image alt="About" src='IndiaNewsTickerLive.jpg' width={50} height={50}/>
+            {/* <img src="IndiaNewsTickerLive.jpg" alt="about" style={{width:'50px',height:'50px'}}/> */}
           </div>
           <div className="flex flex-col py-6">
             <h1 className="text-red-400 text-5xl font-extrabold uppercase">About</h1>
@@ -21,8 +21,8 @@ const About = () => {
           </div>
         </div>
         <div className="py-8 flex items-center justify-center">
-          {/* <Image src='/NewsTicker_About.png' alt="About" width={400} height={400}/> */}
-          <img src="NewsTicker_About.png" alt="about" style={{width:'400px',height:'400px'}}/>
+          <Image src='NewsTicker_About.png' alt="About" width={400} height={400}/>
+          {/* <img src="NewsTicker_About.png" alt="about" style={{width:'400px',height:'400px'}}/> */}
         </div>
     </div>
   )

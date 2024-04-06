@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Button from "@/components/Button"
-
+import Image from "next/image"
 
 const page = () => {
   
@@ -8,9 +8,8 @@ const page = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 px-12 pt-24">
         <div className="flex flex-col pt-8">
           <div className="flex">
-            {/* <Image alt="News Ticker" src='/NewsTicker.jpg'width={30} height={30} /> */}
-            {/* <Image alt="BBLogo" src='/BharatBolegalogo.jpg' width={50} height={50}/> */}
-            <img src="BharatBolegalogo.jpg" alt="BBLogo" style={{width:'50px',height:'50px'}}/>
+            <Image alt="BBLogo" src='BharatBolegalogo.jpg' width={50} height={50}/>
+            {/* <img src="BharatBolegalogo.jpg" alt="BBLogo" style={{width:'50px',height:'50px'}}/> */}
           </div>
           <div className="flex flex-col py-6">
             <h1 className="text-red-400 text-5xl font-extrabold uppercase">Bharat Bolega</h1>
@@ -24,12 +23,12 @@ const page = () => {
           </div>
         </div>
         <div className="relative py-8 flex items-center justify-center img-parent" >
-          {/* <Image src='/Bharat_Bolega.webp' alt="Bharat Bolega" width={500} height={500}  className="img-main"/> */}
-          <img src="Bharat_Bolega.webp" alt="Bharat Bolega" style={{width:'500px',height:'350px'}} className="img-main"/>
-          {/* <Image src='/BB_Sports.webp' alt="Bharat Bolega" width={300} height={300} className="absolute top-0 left-0 object img-child" /> */}
-          <img src="BB_Sports.webp" alt="Bharat Bolega" style={{width:'300px',height:'150px'}} className="absolute top-0 left-0 object img-child"/>
-          {/* <Image src='/BB_Podcast.webp' alt="Bharat Bolega" width={250} height={250} className="absolute bottom-0 right-0 object img-child2" /> */}
-          <img src="BB_Podcast.webp" alt="Bharat Bolega" style={{width:'250px',height:'200px'}} className="absolute bottom-0 right-0 object img-child2"/> 
+          <Image src='Bharat_Bolega.webp' alt="Bharat Bolega" width={500} height={500}  className="img-main"/>
+          {/* <img src="Bharat_Bolega.webp" alt="Bharat Bolega" style={{width:'500px',height:'350px'}} className="img-main"/> */}
+          <Image src='BB_Sports.webp' alt="Bharat Bolega" width={300} height={300} className="absolute top-0 left-0 object img-child" />
+          {/* <img src="BB_Sports.webp" alt="Bharat Bolega" style={{width:'300px',height:'150px'}} className="absolute top-0 left-0 object img-child"/> */}
+          <Image src='BB_Podcast.webp' alt="Bharat Bolega" width={250} height={250} className="absolute bottom-0 right-0 object img-child2" />
+          {/* <img src="BB_Podcast.webp" alt="Bharat Bolega" style={{width:'250px',height:'200px'}} className="absolute bottom-0 right-0 object img-child2"/>  */}
         </div>
     </div>
   )

@@ -87,8 +87,6 @@ const Header = () => {
                         class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-red-600 to-transparent opacity-25 dark:opacity-100" />
                        <p>India is multicultural society. INT attempts to understand the diverse people and cultures it serves, keeping people informed, entertained and connected via creativity and excellence.</p> 
                     </div>
-                    {/* <h4>Be part of India News Ticker as a dedicated member, working with journalists and experts.</h4><br/>
-                    <h4>India is multicultural society. INT attempts to understand the diverse people and cultures it serves, keeping people informed, entertained and connected via creativity and excellence.</h4> */}
         </div>
     </div>
   )
