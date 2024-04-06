@@ -1,6 +1,6 @@
 "use client"
 import { Bars3BottomRightIcon, XCircleIcon } from '@heroicons/react/24/solid';
-// import Image from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -15,8 +15,8 @@ const Header = () => {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
               <Link href="/">
-                {/* <Image src="./newsticker.webp" alt='Logo' width={80} height={40}/> */}
-                <img src="./newsticker.webp" alt="logo" style={{width:'80px',height:'40px'}} />
+                <Image src="newsticker.webp" alt='Logo' width={80} height={40}/>
+                {/* <img src="./newsticker.webp" alt="logo" style={{width:'80px',height:'40px'}} /> */}
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
