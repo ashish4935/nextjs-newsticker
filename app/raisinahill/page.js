@@ -8,7 +8,7 @@ const page = () => {
           <div className="flex">
             {/* <Image alt="News Ticker" src='/NewsTicker.jpg'width={30} height={30} /> */}
             {/* <Image alt="RaisinaHillLogo" src='/RaisinaHIll.jpg' width={50} height={50}/> */}
-            <img src="./RaisinaHIll.jpg" alt="RaisinaHillLogo" style={{width:'50px',height:'50px'}}/>
+            <img src="RaisinaHIll.jpg" alt="RaisinaHillLogo" style={{width:'50px',height:'50px'}}/>
           </div>
           <div className="flex flex-col py-6">
             <h1 className="text-red-400 text-5xl font-extrabold uppercase">Raisina Hill</h1>
@@ -23,11 +23,11 @@ const page = () => {
         </div>
         <div className="py-8 flex items-center justify-center relative img-parent">
           {/* <Image src='/RaisinaHill.webp' alt="Raisina Hill" width={500} height={500} className="img-main"/> */}
-          <img src="./RaisinaHill.webp" alt="Raisina Hill" style={{width:'500px',height:'300px'}} className="img-main"/>
+          <img src="RaisinaHill.webp" alt="Raisina Hill" style={{width:'500px',height:'300px'}} className="img-main"/>
           {/* <Image src='/RaisinaHill_2Words.webp' alt="Bharat Bolega" width={250} height={250} className="absolute top-0 left-0 img-child"/> */}
-          <img src="./RaisinaHill.webp" alt="Raisina Hill" style={{width:'250px',height:'100px'}} className="absolute top-0 left-0 img-child"/>
+          <img src="RaisinaHill.webp" alt="Raisina Hill" style={{width:'250px',height:'100px'}} className="absolute top-0 left-0 img-child"/>
           {/* <Image src='/RaisinaHill_Podcast.webp' alt="Bharat Bolega" width={250} height={250} className="absolute bottom-0 right-0 img-child2"/> */}
-          <img src="./RaisinaHill.webp" alt="Raisina Hill" style={{width:'250px',height:'150px'}} className="absolute bottom-0 right-0 img-child2"/>
+          <img src="RaisinaHill.webp" alt="Raisina Hill" style={{width:'250px',height:'150px'}} className="absolute bottom-0 right-0 img-child2"/>
         </div>
     </div>
   )
