@@ -6,7 +6,7 @@ const page = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 px-12 pt-24">
         <div className="flex flex-col pt-8">
           <div className="flex">
-            <Image alt="RaisinaHillLogo" src='RaisinaHIll.jpg' width={50} height={50}/>
+            <Image alt="RaisinaHillLogo" src='Raisina_Hill.jpg' width={50} height={50}/>
             {/* <img src="RaisinaHIll.jpg" alt="RaisinaHillLogo" style={{width:'50px',height:'50px'}}/> */}
           </div>
           <div className="flex flex-col py-6">

@@ -21,7 +21,7 @@ const page = () => {
           </div>
         </div>
         <div className="py-8 flex items-center justify-center relative img-parent">
-          <Image src='GCaffe_Agency.webp' alt="Agency" width={500} height={500} className="img-main"/>
+          <Image src='Gcaffe_Agency.webp' alt="Agency" width={500} height={500} className="img-main"/>
           {/* <img src="GCaffe_Agency.webp" alt="Agency" style={{width:'500px',height:'250px'}} className="img-main"/> */}
           <Image src='GCaffe_Work.webp' alt="Bharat Bolega" width={300} height={300} className="absolute top-12 left-0 img-child"/>
           {/* <img src="GCaffe_Work.webp" alt="Agency" style={{width:'300px',height:'150px'}} className="absolute top-12 left-0 img-child"/> */}
