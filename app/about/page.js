@@ -6,7 +6,6 @@ const About = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 px-12 pt-24">
         <div className="flex flex-col pt-8">
           <div className="flex">
-            {/* <Image alt="News Ticker" src='/NewsTicker.jpg'width={30} height={30} /> */}
             {/* <Image alt="About" src='/IndiaNewsTickerLive.jpg' width={50} height={50}/> */}
             <img src="./IndiaNewsTickerLive.jpg" alt="about" style={{width:'50px',height:'50px'}}/>
           </div>

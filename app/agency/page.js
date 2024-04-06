@@ -1,5 +1,5 @@
 import Button from "@/components/Button"
-import Image from "next/image"
+// import Image from "next/image"
 import Link from "next/link"
 const page = () => {
   return (
@@ -8,7 +8,7 @@ const page = () => {
           <div className="flex">
             {/* <Image alt="News Ticker" src='./NewsTicker.jpg'width={30} height={30} /> */}
             {/* <Image alt="AgencyLogo" src='/GCaffeAgency.jpg' width={50} height={50}/> */}
-            <img src="GCaffeAgency.jpg" alt="AgencyLogo" style={{width:'50px',height:'50px'}}/>
+            <img src="./GCaffeAgency.jpg" alt="AgencyLogo" style={{width:'50px',height:'50px'}}/>
           </div>
           <div className="flex flex-col py-6">
             <h1 className="text-red-400 text-5xl font-extrabold uppercase">Agency</h1>
@@ -23,11 +23,11 @@ const page = () => {
         </div>
         <div className="py-8 flex items-center justify-center relative img-parent">
           {/* <Image src='/GCaffe_Agency.webp' alt="Agency" width={500} height={500} className="img-main"/> */}
-          <img src="/GCaffe_Agency.webp" alt="Agency" style={{width:'500px',height:'250px'}} className="img-main"/>
+          <img src="./GCaffe_Agency.webp" alt="Agency" style={{width:'500px',height:'250px'}} className="img-main"/>
           {/* <Image src='/GCaffe_Work.webp' alt="Bharat Bolega" width={300} height={300} className="absolute top-12 left-0 img-child"/> */}
-          <img src="/GCaffe_Work.webp" alt="Agency" style={{width:'300px',height:'150px'}} className="absolute top-12 left-0 img-child"/>
+          <img src="./GCaffe_Work.webp" alt="Agency" style={{width:'300px',height:'150px'}} className="absolute top-12 left-0 img-child"/>
           {/* <Image src='/GCaffe_Slogan.webp' alt="Bharat Bolega" width={300} height={300} className="absolute bottom-10 right-0 img-child2"/> */}
-          <img src="/GCaffe_Slogan.webp" alt="Agency" style={{width:'300px',height:'150px'}} className="absolute bottom-10 right-0 img-child2"/>
+          <img src="./GCaffe_Slogan.webp" alt="Agency" style={{width:'300px',height:'150px'}} className="absolute bottom-10 right-0 img-child2"/>
         </div>
     </div>
   )
