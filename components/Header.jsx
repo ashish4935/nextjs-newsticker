@@ -16,7 +16,7 @@ const Header = () => {
               {/* LOGO */}
               <Link href="/">
                 {/* <Image src="/newsticker.webp" alt='Logo' width={80} height={40}/> */}
-                <img src="./newsticker.webp" alt="Logo" style={{width:'80px',height:'40px'}} />
+                <img src="./newsticker.webp" alt="logo" style={{width:'80px',height:'40px'}} />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">

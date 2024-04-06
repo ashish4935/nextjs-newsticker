@@ -10,7 +10,7 @@ const Footer = () => {
             {/* LOGO */}
             <Link href="/">
                 {/* <Image src="/newsticker.webp" alt='Logo' width={150} height={80}/> */}
-                <img src="./newsticker.webp" alt="Logo" style={{width:'150px',height:'80px'}} />
+                <img src="./newsticker.webp" alt="logo" style={{width:'150px',height:'80px'}} />
             </Link>
             <p className="font-light">© 2024 News Ticker. Powered By <a href="https://gcaffe.com" target="_blank">G Caffe</a></p>
             <div class="flex flex-1 pt-5">

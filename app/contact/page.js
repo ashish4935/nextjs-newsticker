@@ -7,7 +7,7 @@ const Contact = () => {
           <div className="flex">
             {/* <Image alt="News Ticker" src='/NewsTicker.jpg'width={30} height={30} /> */}
             {/* <Image alt="Contact" src='/NewsTickerContact.png' width={50} height={50}/> */}
-            <img src="/NewsTickerContact.png" alt="contact" style={{width:'50px',height:'50px'}}/>
+            <img src="./NewsTickerContact.png" alt="contact" style={{width:'50px',height:'50px'}}/>
           </div>
           <div className="flex flex-col py-6">
             <h1 className="text-red-400 text-5xl font-extrabold uppercase">Contact</h1>
@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
         <div className="py-8 flex items-center justify-center">
           {/* <Image src='/NewsTicker_Agency.png' alt="Agency" width={500} height={500}/> */}
-          <img src="/NewsTicker_Agency.png" alt="Contact" style={{width:'500px',height:'500px'}}/>
+          <img src="./NewsTicker_Agency.png" alt="contact" style={{width:'500px',height:'500px'}}/>
         </div>
     </div>
   )
