@@ -12,11 +12,11 @@ const page = () => {
             {/* <img src="BharatBolegalogo.jpg" alt="BBLogo" style={{width:'50px',height:'50px'}}/> */}
           </div>
           <div className="flex flex-col py-6">
-            <h1 className="text-red-400 text-5xl font-extrabold uppercase">Bharat Bolega</h1>
-            <p className="text-gray-300 py-1">Bharat Bolega is a website which promotes story telling in Hindi, generates awareness, helps them break taboos, and spreads powerful thoughts </p>
+            <h1 className="text-red-400 sm:text-5xl font-extrabold uppercase">Bharat Bolega</h1>
+            <p className="text-gray-300 py-1"><Link href="https://www.bharatbolega.com/" target="_blank" className="font-bold hover:text-red-400">Bharat Bolega</Link> is a website which promotes story telling in Hindi, generates awareness, helps them break taboos, and spreads powerful thoughts </p>
             <p className="text-gray-300 py-1">It is devoted exclusively to news, views and analysis of developments around the world. You can be with us if you are bold enough to raise your voice against corruption, terrorism and anarchy.</p>
             <p className="text-gray-300 py-1">We have a dedicated team of journalists, writers, authors, analysts and digital experts with a focus on India-specific social, political and economic trends.</p>
-            <p className="text-gray-300 py-1">We also dwell upon our relations with neighbours and other foreign countries. Founded by Neeraj Bhushan, Bharat Bolega is powered by G Caffe creative agency.</p>
+            <p className="text-gray-300 py-1">We also dwell upon our relations with neighbours and other foreign countries. Founded by <Link href="https://neerajbhushan.com/" target="_blank" className="font-bold hover:text-red-400">Neeraj Bhushan</Link>, <Link href="https://www.bharatbolega.com/" target="_blank" className="font-bold hover:text-red-400">Bharat Bolega</Link> is powered by <Link href="https://www.gcaffe.org/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link> creative agency.</p>
             <Link href='/contact'>
             <Button text={'Know More'}/>
             </Link>

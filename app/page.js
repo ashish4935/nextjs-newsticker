@@ -5,8 +5,8 @@ import RaisinahillPost from "@/components/RaisinahillPost";
 export default function Home() {
   return (
     <main className="py-24"> 
-      <RaisinahillPost/>
       <BharatBolegaPost/> 
+      <RaisinahillPost/>
       <BuisnessofbrandPost/>
     </main>
   );

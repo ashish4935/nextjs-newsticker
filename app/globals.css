@@ -47,12 +47,43 @@ Button:hover{
   }
 }
 
+/* loader */
+.loader {
+  width: 40px;
+  aspect-ratio: 1;
+  color: #f87171;
+  background: conic-gradient(currentColor 0 270deg,#0000 0);
+  border-radius: 50%;
+  animation: loading 4s infinite linear;
+}
+.loader::before {
+  content: "";
+  display: block;
+  height: 50%;
+  width: 50%;
+  border-top-left-radius: 100px;
+  background: currentColor;
+  animation: loading1 0.5s infinite alternate;
+}
+@keyframes loading {
+    0%,24.99%  {transform: rotate(0deg)}
+    25%,49.99% {transform: rotate(90deg)}
+    50%,74.99% {transform: rotate(180deg)}
+    75%,100%   {transform: rotate(270deg)}
+}
+@keyframes loading1 {
+    100%  {transform: translate(-10px,-10px)}
+}
+
 @media  screen and (max-width:768px) {
   /* nav{
     background-color: black;
   } */
   .message{
     display: none;
+  }
+  .img-child,.img-child2{
+    width: 50%;
   }
 }
 

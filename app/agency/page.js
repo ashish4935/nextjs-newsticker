@@ -10,11 +10,11 @@ const page = () => {
             {/* <img src="GCaffeAgency.jpg" alt="AgencyLogo" style={{width:'50px',height:'50px'}}/> */}
           </div>
           <div className="flex flex-col py-6">
-            <h1 className="text-red-400 text-5xl font-extrabold uppercase">Agency</h1>
-            <p className="text-gray-300 py-1">G Caffe is a creative agency that brings your story to life through brand management and digital marketing. It brings rich concepts that may help you compete and gain prominent spots.</p>
-            <p className="text-gray-300 py-1">G Caffe understands the importance of knowing what consumers read, watch, hear and buy. The branding agency might help you make your business everything it can be</p>
-            <p className="text-gray-300 py-1">With the tagline – Together We Create, G Caffe is a one-stop place for Branding, Entertainment, Lifestyle, Fashion, PR, Communications, Content, Social Media, Events and Consumer Insight.</p>
-            <p className="text-gray-300 py-1">Founded by Geetanjali Kaul, it is based in National Capital Region, India. Ambitious, caring and diverse people on their inspiring odysseys are part of G Caffe, writing success stories.</p>
+            <h1 className="text-red-400 sm:text-5xl font-extrabold uppercase">Agency</h1>
+            <p className="text-gray-300 py-1"><Link href="https://www.gcaffe.org/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link> is a creative agency that brings your story to life through brand management and digital marketing. It brings rich concepts that may help you compete and gain prominent spots.</p>
+            <p className="text-gray-300 py-1"><Link href="https://www.gcaffe.org/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link> understands the importance of knowing what consumers read, watch, hear and buy. The branding agency might help you make your business everything it can be</p>
+            <p className="text-gray-300 py-1">With the tagline – Together We Create, <Link href="https://www.gcaffe.org/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link> is a one-stop place for Branding, Entertainment, Lifestyle, Fashion, PR, Communications, Content, Social Media, Events and Consumer Insight.</p>
+            <p className="text-gray-300 py-1">Founded by <Link href="https://gcaffe.wordpress.com/" target="_blank" className="font-bold hover:text-red-400">Geetanjali Kaul</Link>, it is based in National Capital Region, India. Ambitious, caring and diverse people on their inspiring odysseys are part of <Link href="https://www.gcaffe.org/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link>, writing success stories.</p>
             <Link href='/contact'>
             <Button text={'Know More'}/>
             </Link>

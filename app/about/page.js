@@ -1,8 +1,10 @@
 import Button from "@/components/Button"
+import TeamMember from "@/components/TeamMember"
 import Image from "next/image"
 import Link from "next/link"
 const About = () => {
   return (
+    <>
     <div className="grid grid-cols-1 md:grid-cols-2 px-12 pt-24">
         <div className="flex flex-col pt-8">
           <div className="flex">
@@ -10,7 +12,7 @@ const About = () => {
             {/* <img src="IndiaNewsTickerLive.jpg" alt="about" style={{width:'50px',height:'50px'}}/> */}
           </div>
           <div className="flex flex-col py-6">
-            <h1 className="text-red-400 text-5xl font-extrabold uppercase">About</h1>
+            <h1 className="text-red-400 sm:text-5xl font-extrabold uppercase">About</h1>
             <p className="text-gray-300 py-1">What is the source of your daily quotient of News – Radio, TV, Internet or Newspaper? Do you choose the medium for trust or availability?</p>
             <p className="text-gray-300 py-1">We bring you first hand news and for that we have developed this service which brings news and views in the form of a ticker which is scrolling on your screen.</p>
             <p className="text-gray-300 py-1">INT believes in complete honesty and truthfulness of the word news which actually means North East West South. We have thus created this platform to take India ahead.</p>
@@ -25,6 +27,8 @@ const About = () => {
           {/* <img src="NewsTicker_About.png" alt="about" style={{width:'400px',height:'400px'}}/> */}
         </div>
     </div>
+    <TeamMember/>
+    </>
   )
 }
 

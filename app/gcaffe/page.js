@@ -10,11 +10,11 @@ const page = () => {
             {/* <img src="GCaffeAgency.jpg" alt="GCaffeLogo" style={{width:'50px',height:'50px'}}/> */}
           </div>
           <div className="flex flex-col py-6">
-            <h1 className="text-red-400 text-5xl font-extrabold uppercase">G Caffe</h1>
-            <p className="text-gray-300 py-1">G Caffe brings rich concepts to help you grow. This is a branding platform of creative agency G Caffe. It delivers reliable information and relevant stories on trends and happening.</p>
+            <h1 className="text-red-400 sm:text-5xl font-extrabold uppercase">G Caffe</h1>
+            <p className="text-gray-300 py-1"><Link href="https://www.gcaffe.com/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link> brings rich concepts to help you grow. This is a branding platform of creative agency <Link href="https://www.gcaffe.com/" target="_blank" className="font-bold hover:text-red-400">G Caffe.</Link> It delivers reliable information and relevant stories on trends and happening.</p>
             <p className="text-gray-300 py-1">This website believes in business of branding. The idea is to inform, entertain, and inspire through multi-platform content. </p>
             <p className="text-gray-300 py-1">It publishes stories on advertising, marketing, branding, fashion, health, travel, food, music and movies with engaging infographics.</p>
-            <p className="text-gray-300 py-1">G Caffe understands the importance of knowing and sharing with you how to get what you want. Founded by Geetanjali Kaul, this website is powered by G Caffe creative agency.</p>
+            <p className="text-gray-300 py-1"><Link href="https://www.gcaffe.org/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link> understands the importance of knowing and sharing with you how to get what you want. Founded by <Link href="https://gcaffe.wordpress.com/" target="_blank" className="font-bold hover:text-red-400">Geetanjali Kaul</Link>, this website is powered by <Link href="https://www.gcaffe.org/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link> creative agency.</p>
             <Link href='/contact'>
             <Button text={'Know More'}/>
             </Link>

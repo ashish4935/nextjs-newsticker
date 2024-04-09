@@ -10,11 +10,11 @@ const page = () => {
             {/* <img src="RaisinaHIll.jpg" alt="RaisinaHillLogo" style={{width:'50px',height:'50px'}}/> */}
           </div>
           <div className="flex flex-col py-6">
-            <h1 className="text-red-400 text-5xl font-extrabold uppercase">Raisina Hill</h1>
-            <p className="text-gray-300 py-1">Raisina Hill is a platform which keeps you updated with news, views and analysis of developments and trends across the world.</p>
+            <h1 className="text-red-400 sm:text-5xl font-extrabold uppercase">Raisina Hill</h1>
+            <p className="text-gray-300 py-1"><Link href="https://www.raisinahill.com/" target="_blank" className="font-bold hover:text-red-400">Raisina Hill</Link> is a platform which keeps you updated with news, views and analysis of developments and trends across the world.</p>
             <p className="text-gray-300 py-1">Its newsroom tells the stories people want to hear and listens to the stories people want to tell. Together we voice our opinion and stay alert. </p>
             <p className="text-gray-300 py-1">Our storytellers share their distinctive analysis of news trends. On this website, you can read stories from technology to climate change, economy to foreign policy, floods to terror threats.</p>
-            <p className="text-gray-300 py-1">Raisina Hill also dwells upon India’s relations with neighbours and other foreign countries. Founded by Neeraj Bhushan, this news website is powered by G Caffe creative agency.</p>
+            <p className="text-gray-300 py-1"><Link href="https://www.raisinahill.com/" target="_blank" className="font-bold hover:text-red-400">Raisina Hill</Link> also dwells upon India’s relations with neighbours and other foreign countries. Founded by <Link href="https://neerajbhushan.com/" target="_blank" className="font-bold hover:text-red-400">Neeraj Bhushan</Link>, this news website is powered by <Link href="https://www.gcaffe.org/" target="_blank" className="font-bold hover:text-red-400">G Caffe</Link> creative agency.</p>
             <Link href='/contact'>
             <Button text={'Know More'}/>
             </Link>
