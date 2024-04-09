@@ -15,7 +15,7 @@ const Header = () => {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
               <Link href="/">
-                <Image src="/newsticker.webp" alt='Logo' width={80} height={40}/>
+                <Image src="newsticker.webp" alt='Logo' width={80} height={40}/>
                 {/* <img src="./newsticker.webp" alt="logo" style={{width:'80px',height:'40px'}} /> */}
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}

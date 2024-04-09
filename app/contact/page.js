@@ -11,9 +11,9 @@ const Contact = () => {
           </div>
           <div className="flex flex-col py-6">
             <h1 className="text-red-400 sm:text-5xl font-extrabold uppercase">Contact</h1>
-            <p className="text-gray-300 py-1">Got a story or photo? Send us on <Link href="mailto:gcaffe.neeraj@gmail.com" className="hover:text-red-400">gcaffe.neeraj@gmail.com</Link></p>
-            <p className="text-gray-300 py-1">For vacancies, e-mail Human Resources on <Link href="mailto:gcaffe.neeraj@gmail.com" className="hover:text-red-400">gcaffe.neeraj@gmail.com</Link></p>
-            <p className="text-gray-300 py-1">If you have a media query, write to <Link href="mailto:gcaffe.neeraj@gmail.com" className="hover:text-red-400">gcaffe.neeraj@gmail.com</Link></p>
+            <p className="text-gray-300 py-1">Got a story or photo? Send us on <Link href="mailto:gcaffe.neeraj@gmail.com" className="hover:text-red-400 text-md">gcaffe.neeraj@gmail.com</Link></p>
+            <p className="text-gray-300 py-1">For vacancies, e-mail Human Resources on <Link href="mailto:gcaffe.neeraj@gmail.com" className="hover:text-red-400 text-md">gcaffe.neeraj@gmail.com</Link></p>
+            <p className="text-gray-300 py-1">If you have a media query, write to <Link href="mailto:gcaffe.neeraj@gmail.com" className="hover:text-red-400 text-md">gcaffe.neeraj@gmail.com</Link></p>
             <p className="text-gray-300 py-1"> You can also reach us by post. Write to India News Ticker A 16, Second Floor, Sector 9 Noida.</p>
             <Link href="mailto:gcaffe.neeraj@gmail.com">
               <Button text={"Let's Connect"}/>
