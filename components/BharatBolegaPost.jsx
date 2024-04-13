@@ -8,17 +8,17 @@ const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 5,
-    //   slidesToSlide: 4 // optional, default to 1.
+      slidesToSlide: 5 // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 768 },
       items: 3,
-    //   slidesToSlide: 3 // optional, default to 1.
+      slidesToSlide: 3 // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 767, min: 320 },
       items: 2,
-    //   slidesToSlide: 1 // optional, default to 1.
+      slidesToSlide: 2 // optional, default to 1.
     }
   };
 
@@ -37,7 +37,7 @@ const BharatBolegaPost = () => {
   return (
       <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-red-400 pl-3 pb-6">
-          Bharat Bolega
+        भारत बोलेगा
         </h2>
         {loading ? <Carousel swipeable={false} draggable={false}responsive={responsive} arrows={false} infinite={true} autoPlay={true}autoPlaySpeed={2000}>
           {
